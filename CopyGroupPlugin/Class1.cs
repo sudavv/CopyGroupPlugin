@@ -29,6 +29,8 @@ namespace CopyGroupPlugin
             doc.Create.PlaceGroup(point, group.GroupType);
             transaction.Commit();
 
+
+
             return Result.Succeeded;
         }
     }
